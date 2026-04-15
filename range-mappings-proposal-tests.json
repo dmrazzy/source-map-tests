@@ -58,6 +58,13 @@
       "sourceMapIsValid": false
     },
     {
+      "name": "rangeMappingsOutOfRange3",
+      "description": "Test an invalid range mapping encoded with a continuation bit that is too large",
+      "baseFile": "out-of-range-3.js",
+      "sourceMapFile": "out-of-range-3.js.map",
+      "sourceMapIsValid": false
+    },
+    {
       "name": "rangeMappingsEmpty",
       "description": "Test a trivial range mapping that is the empty string",
       "baseFile": "empty-string.js",
@@ -69,6 +76,13 @@
       "description": "Test a non-empty range mapping where not all lines in the generated source are covered",
       "baseFile": "non-full-line-coverage.js",
       "sourceMapFile": "non-full-line-coverage.js.map",
+      "sourceMapIsValid": true
+    },
+    {
+      "name": "rangeMappingsVLQContinuationBit",
+      "description": "Test a range mapping that uses a VLQ with continuation bit",
+      "baseFile": "vlq-continuation-bit.js",
+      "sourceMapFile": "vlq-continuation-bit.js.map",
       "sourceMapIsValid": true
     },
     {
