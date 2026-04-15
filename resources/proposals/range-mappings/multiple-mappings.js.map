@@ -3,6 +3,6 @@
   "names": [],
   "sources": ["multiple-mappings-original.js"],
   "sourcesContent": ["\"Hello World\";  function f() {   }  "],
-  "mappings": ";CAAA,aAAa,EAAG,iBAAoB;A",
+  "mappings": ";CAAA,aAAa,EAAG,iBAAiB;A",
   "rangeMappings": ";AC;"
 }
